@@ -24,5 +24,3 @@
  2.18 Realice una pagina web con css y js que determine aproximadamente cuántos meses, semanas, días y horas ha vivido una persona.
 2.19 Realice una pagina web con css y js para determinar el costo que tendrá realizar una llamada telefónica con base en el tiempo que dura la llamada y en el costo por minuto. Represente la solución mediante el diagrama de flujo y pseudocódigo.
  2.20 El hotel “Cama Arena” requiere determinar lo que le debe cobrar a un huésped por su estancia en una de sus habitaciones. Realice una pagina web con css y js que de solución para determinar ese cobro
-
-## ❓ Preguntas y Dudas
