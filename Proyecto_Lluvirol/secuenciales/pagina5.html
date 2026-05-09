@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheque de Viaje</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"> Problema 5 </div>
+            <div class="menu">
+                <a href="../index.html" class="home-btn">🏯 Inicio</a>
+            </div>
+        </nav>
+
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Monto del Cheque</h1>
+            <p>
+                Sistema para calcular los gastos
+                de un viaje de trabajo.
+            </p>
+            <div class="box">
+                <label for="dias">Número de días:</label>
+                <br><br>
+                <input type="text" id="dias">
+                <br><br><br>
+
+                <label for="hotel">Gasto diario de hotel:</label>
+                <br><br>
+                <input type="text" id="hotel">
+                <br><br><br>
+
+                <label for="comida">Gasto diario de comida:</label>
+                <br><br>
+                <input type="text" id="comida">
+                <br><br><br>
+
+                <button onclick="cheque()" class="btn">Calcular Cheque</button>
+                <br><br><br>
+                <p id="resul">Resultado</p>
+            </div>
+        </div>
+    </section>
+    <script src="../scripts/pagina5.js" defer></script>
+
+</body>
+</html>

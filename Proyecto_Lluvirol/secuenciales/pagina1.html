@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONAGUA</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"> Problema 1 </div>
+            <div class="menu">
+                <a href="../index.html" class="home-btn">🏯 Inicio</a>
+            </div>
+        </nav>
+
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Pago de Agua</h1>
+            <p>
+                Sistema para calcular el pago total
+                según los metros cúbicos consumidos.
+            </p>
+            <div class="box">
+                <label for="metros">Metros cúbicos consumidos:</label>
+                <br><br>
+                <input type="text" id="metros">
+                <br><br><br>
+                <label for="costo">Costo por metro cúbico:</label>
+                <br><br>
+                <input type="text" id="costo">
+                <br><br><br>
+                <button onclick="agua()" class="btn">Calcular Pago</button>
+                <br><br><br>
+                <p id="resul">Resultado</p>
+            </div>
+        </div>
+    </section>
+    <script src="../scripts/pagina1.js" defer></script>
+
+</body>
+</html>

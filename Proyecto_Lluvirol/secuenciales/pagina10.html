@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Llamada Telefónica</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"> Problema 10 </div>
+            <div class="menu">
+                <a href="../index.html" class="home-btn">🏯 Inicio</a>
+            </div>
+        </nav>
+
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Costo de Llamada</h1>
+            <p>
+                Sistema para calcular el costo
+                de una llamada telefónica.
+            </p>
+            <div class="box">
+                <label for="minutos">Duración en minutos:</label>
+                <br><br>
+                <input type="text" id="minutos">
+                <br><br><br>
+
+                <label for="costo">Costo por minuto:</label>
+                <br><br>
+                <input type="text" id="costo">
+                <br><br><br>
+
+                <button onclick="llamada()" class="btn">Calcular Costo</button>
+                <br><br><br>
+                <p id="resul">Resultado</p>
+            </div>
+        </div>
+    </section>
+    <script src="../scripts/pagina10.js" defer></script>
+
+</body>
+</html>
